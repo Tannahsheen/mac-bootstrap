@@ -48,10 +48,13 @@ Clones [Tannahsheen/mac-dotfiles](https://github.com/Tannahsheen/mac-dotfiles) a
 ```bash
 brew services start sketchybar
 open -a AeroSpace
+```
+
+## For Bloodhound 
+```
 # Start Docker Desktop, then BloodHound CE:
 docker compose -f ~/tools/BloodHound-CE/examples/docker-compose/docker-compose.yml up -d
 # BloodHound CE → http://localhost:8080
 ```
-
-> **Note:** Responder and mitm6 have limited functionality on macOS due to raw socket restrictions.
-> Use a Linux/Kali box for LLMNR poisoning in real engagements.
+> **Note:** Responder and mitm6 arent going to do much for you on the mac, they are installed so I have them handy.
+> Use a Linux/Kali box for LLMNR/MDNS/etc poisoning or relay in real engagements.
