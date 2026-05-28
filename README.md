@@ -27,10 +27,9 @@ Binary downloads — latest release, auto-detected Apple Silicon vs Intel.
 | Tool | Purpose |
 |------|---------|
 | SecLists | Wordlists |
-| PetitPotam | Coercion |
-| DFSCoerce | Coercion |
-| ShadowCoerce | Coercion |
-| Responder | LLMNR/NBT-NS poisoning |
+| PetitPotam | Coercion(outside nxc) |
+| DFSCoerce | Coercion(outside nxc) |
+| ShadowCoerce | Coercion(outside nxc) |
 | BloodHound CE | AD attack paths (docker) |
 
 ### Apps
