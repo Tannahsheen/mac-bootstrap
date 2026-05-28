@@ -41,7 +41,7 @@ Parallels · Microsoft Office · Claude · ClickUp
 
 ## Dotfiles
 
-Clones [Tannahsheen/dotfiles](https://github.com/Tannahsheen/dotfiles) and runs `install.sh` automatically.
+Clones [Tannahsheen/mac-dotfiles](https://github.com/Tannahsheen/mac-dotfiles) and runs `install.sh` automatically.
 
 ## After running
 

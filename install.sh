@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-DOTFILES_REPO="https://github.com/Tannahsheen/dotfiles"
+DOTFILES_REPO="https://github.com/Tannahsheen/mac-dotfiles"
 TOOLS="$HOME/tools"
 BIN="/opt/homebrew/bin"  # brew-managed bin, already in PATH on Apple Silicon
 
@@ -189,10 +189,10 @@ fi
 
 # ─── Dotfiles ───────────────────────────────────────────────────────────────
 info "Dotfiles"
-if [ ! -d "$HOME/dotfiles" ]; then
-    git clone "$DOTFILES_REPO" "$HOME/dotfiles"
+if [ ! -d "$HOME/mac-dotfiles" ]; then
+    git clone "$DOTFILES_REPO" "$HOME/mac-dotfiles"
 fi
-bash "$HOME/dotfiles/install.sh"
+bash "$HOME/mac-dotfiles/install.sh"
 ok "Dotfiles applied"
 
 # ─── Commercial apps (detect only) ──────────────────────────────────────────
